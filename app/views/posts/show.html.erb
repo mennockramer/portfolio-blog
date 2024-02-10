@@ -1,0 +1,13 @@
+<%= link_to "Back to list", posts_path(@post) %>
+
+<h1><%= @post.title %></h1>
+
+<p><%= @post.body %></p>
+
+<!-- edit/destory via console or direct nav until I think of a good way to not have these show to visitors
+<ul>
+  <li><%= link_to "Edit", edit_post_path(@post) %></li>
+  <li><%= link_to "Delete", post_path(@post), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %></li>
+</ul>
+-->
+
