@@ -69,3 +69,4 @@ end
 
 ### Added gems
 gem "faraday"
+gem "rss" #for github atom feed

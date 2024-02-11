@@ -4,7 +4,7 @@
   <% @posts.each do |post| %>
     <li>
       <%= link_to post.title, post %>
-      <%= post.body%>
+      <%= raw post.body%>
     </li>
   <% end %>
 </ul>
